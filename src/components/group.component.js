@@ -5,11 +5,13 @@ import { GroupCardStyle } from "../../assets/styles/groupCard.style";
 const style = GroupCardStyle;
 
 export const GroupComponent = (props) => {
+	const rute = props.screen;
+
 	return (
-		<View style={style.groupCard}>
+		<View onTouchEnd={() => props.screen} style={style.groupCard}>
 			<View style={style.groupCardImageContainer}>
 				<Image
-					resizeMode="contain"
+					resizeMode="cover"
 					style={style.groupCardImage}
 					source={require("../../assets/img/Fantastic_Four_logo.png")}
 				/>
