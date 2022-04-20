@@ -5,23 +5,21 @@ export const GroupScreenStyle = StyleSheet.create({
 		width: "100%",
 		flexDirection: "column",
 		padding: 15,
-		borderColor: "red",
-		borderWidth: 1,
 	},
 	viewContainer: {
 		width: "100%",
-		borderWidth: 1,
 	},
 	titleContainer: {
-		paddingTop: 30,
+		paddingTop: 20,
 		justifyContent: "center",
-		paddingBottom: 30,
-		borderBottomColor: "#333333",
+		paddingBottom: 20,
+		borderBottomColor: "#E8E8E8",
 		borderBottomWidth: 1,
 	},
 	title: {
 		textAlign: "center",
-		fontSize: 32,
+		fontSize: 36,
 		fontWeight: "600",
+		fontFamily: "Lato_700Bold",
 	},
 });

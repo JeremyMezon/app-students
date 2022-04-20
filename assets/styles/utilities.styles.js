@@ -8,6 +8,7 @@ export const UtilitiesStyles = StyleSheet.create({
 	},
 	centerX: {
 		display: "flex",
+		flexDirection: "row",
 		justifyContent: "center",
 	},
 	centerY: {
