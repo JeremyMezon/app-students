@@ -12,14 +12,17 @@ export const GroupCardStyle = StyleSheet.create({
 		marginBottom: 25,
 	},
 	groupCardImageContainer: {
-		width: 125,
+		width: 75,
+		height: 75,
+		borderRadius: 100,
+		overflow: "hidden",
 		justifyContent: "center",
 		alignItems: "center",
-		padding: 10,
+		margin: 15,
 	},
 	groupCardImage: {
 		width: "100%",
-		height: 85,
+		height: "100%",
 	},
 	groupCardContainer: {
 		padding: 25,

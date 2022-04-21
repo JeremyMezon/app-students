@@ -15,4 +15,11 @@ export const UtilitiesStyles = StyleSheet.create({
 		display: "flex",
 		alignItems: "center",
 	},
+	image: {
+		width: "100%",
+		height: "100%",
+	},
+	bgWhite: {
+		backgroundColor: "#ffffff",
+	},
 });
