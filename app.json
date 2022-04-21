@@ -27,6 +27,8 @@
     },
     "web": {
       "favicon": "./assets/img/favicon.png"
-    }
+    },
+    "description": "This is a small proyect for junior developers of React Native on Expo",
+    "githubUrl": "https://github.com/JeremyMezon/app-students.git"
   }
 }
