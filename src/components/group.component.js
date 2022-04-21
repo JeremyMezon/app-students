@@ -4,23 +4,25 @@ import { GroupCardStyle } from "../../assets/styles/groupCard.style";
 
 const style = GroupCardStyle;
 
-export const GroupComponent = (props) => {
-	const rute = props.screen;
-
+export const GroupComponent = (props, { navigation }) => {
 	return (
-		<View onTouchEnd={() => props.screen} style={style.groupCard}>
+		<View
+			onTouchEnd={() => {
+				props.context.navigate("Members", { member: props.data });
+			}}
+			style={style.groupCard}
+		>
 			<View style={style.groupCardImageContainer}>
 				<Image
 					resizeMode="cover"
 					style={style.groupCardImage}
-					source={require("../../assets/img/Fantastic_Four_logo.png")}
+					source={{ uri: props.data.Foto }}
 				/>
 			</View>
 			<View style={style.groupCardContainer}>
-				<Text style={style.groupName}>{props.groupName}</Text>
+				<Text style={style.groupName}>{props.data.Nombre}</Text>
 				<View>
-					<Text></Text>
-					<Text>... Integrantes</Text>
+					<Text>{props.data.Matricula}</Text>
 				</View>
 			</View>
 		</View>

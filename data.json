@@ -1,25 +1,25 @@
 {
     "Integrantes": [
       {
-        "Foto": "",
+        "Foto": "https://bnz05pap001files.storage.live.com/y4m8BTqapc2VPrNkEpCuIjjLYOVxUdU1jBplK6F7EMUl4h8m2FZbzSRW8At8hyHvNfBcZmjhlwgWG6P2FoMuBG8TSGuP3aI-AabiRqEXB_fa2JnOUXnV50sGUo0YnyNKsJ0hK053B5XWTxFedSfSbDRhtueV1NfZZnNCYYLPa32z4NpgI8XTXvEzKwan_hOei5L?width=360&height=360&cropmode=none",
         "Matricula": "2020-30-2-0009",
         "Nombre": "Cesar Gonzalez",
         "CiudadNac": "Santo Domingo",
-        "Hobbies": "Escuhar musica"
+        "Hobbies": ["Escuhar musica","Cocinar","Ir a la Iglesia"]
       },
       {
-        "Foto": "",
+        "Foto": "https://bnz05pap001files.storage.live.com/y4mqXLHVnrhuuhAM-lEdZAQbiP4YOpeB-zLCH-itrSvfr1k9hpVQzklQBVChW4UW8eSgOUN8BXvZIzhSZ9gIYEcNPn-L2kR7hUvFPCdiTNcWC9K7Pf6AjYaq-W5Rh2DBKfeZfbuKm9jkBnUwZZvUBPpY9oQxHB6-UPIbYMRYUJtSaEQghrUVX-Y5TdzI0GDrqJS?width=960&height=1280&cropmode=none",
         "Matricula": "2020-30-2-0010",
         "Nombre": "Rafael Ogando",
         "CiudadNac": "Santo Domingo",
-        "Hobbies": "Compartir con mis amigos"
+        "Hobbies": ["Compartir con mis amigos","Ver Películas","Salir a correr"]
       },
       {
-        "Foto": "",
+        "Foto": "https://bnz05pap001files.storage.live.com/y4meuOMuSe87XA8Lxv6w7686JcNwr7hXL29qWksPfzWyf5wxwYokufi67XcgWixRNU9AsR2ZeezoO79S27rpaJzSqMHh7gYfJCnTfasDonVjr1j-q9f3pppsxFCqZ7CBxMwXsSbXLtL3E1-s5nrvIfgRh1glxhoUoJNFI7aEhxiasOVnyqb_25-PDC1_knAbiB0?width=1440&height=1440&cropmode=none",
         "Matricula": "2020-30-2-0011",
         "Nombre": "Jeremy Mezon",
         "CiudadNac": "Santo Domingo",
-        "Hobbies": "Leer"
+        "Hobbies": ["Leer","Ir al Gym","Jugar Videojuegos"]
       }
     ]
 }
