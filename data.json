@@ -1,0 +1,25 @@
+{
+    "Integrantes": [
+      {
+        "Foto": "",
+        "Matricula": "2020-30-2-0009",
+        "Nombre": "Cesar Gonzalez",
+        "CiudadNac": "Santo Domingo",
+        "Hobbies": "Escuhar musica"
+      },
+      {
+        "Foto": "",
+        "Matricula": "2020-30-2-0010",
+        "Nombre": "Rafael Ogando",
+        "CiudadNac": "Santo Domingo",
+        "Hobbies": "Compartir con mis amigos"
+      },
+      {
+        "Foto": "",
+        "Matricula": "2020-30-2-0011",
+        "Nombre": "Jeremy Mezon",
+        "CiudadNac": "Santo Domingo",
+        "Hobbies": "Leer"
+      }
+    ]
+}
